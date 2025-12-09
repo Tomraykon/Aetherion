@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Header-Banner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a0f14;
+        stroke: url(#linear-gradient-2);
+        stroke-miterlimit: 10;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="960" y1="1080" x2="960" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0f14"/>
+      <stop offset="1" stop-color="#1b4d63"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="960" y1="935.37" x2="960" y2="144.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c8802a"/>
+      <stop offset=".5" stop-color="#ffcd6f"/>
+      <stop offset="1" stop-color="#c8802a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="768.08" y2="311.92" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <rect class="cls-3" x="0" y="0" width="1920" height="1080"/>
+  <circle class="cls-1" cx="960" cy="540" r="387.87"/>
+  <path class="cls-2" d="M920.71,726.79c0-23.97,16.65-41.29,39.29-41.29,23.97,0,39.29,17.31,39.29,41.29s-15.32,41.29-39.29,41.29-39.29-17.98-39.29-41.29ZM937.36,631.56l-9.32-319.64h63.93l-9.32,319.64h-45.28Z"/>
+</svg>

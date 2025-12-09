@@ -1,0 +1,8 @@
+Para los ranking: Conteo semanal, Rango semanal.
+El conteo es por: 
+
+1 - Suma de tiempo total de juego semanal.
+2 - Suma de objetivos totales en el server. (construccion completa de: Base inicial, Mega Base Tienda, Granja, Proyecto Personal)
+3 - Suma de Diamantes minados por semana.
+4 - Suma de KM caminados por semana. (Exploración)
+5 - Menos muertes semanales.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Discord_Logo" data-name="Discord Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="256" x2="512" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c8802a"/>
+      <stop offset=".5" stop-color="#ffcd6f"/>
+      <stop offset="1" stop-color="#c8802a"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M477.28,152.38l34.72-63.2-165.11,76.9,32.43-99.76-43.92,20.45-20.88,64.23-58.52-27.25-58.52,27.25-20.88-64.24-43.93-20.46,32.43,99.77L0,89.18l34.72,63.2,148.4,69.12,16.24,49.97-133.34-62.1,34.72,63.2,104.78,48.8-39.92,18.59,90.4,105.75,90.4-105.75-39.91-18.59,104.78-48.8,34.72-63.2-133.34,62.1,16.24-49.97,148.4-69.12ZM256,331.02l-46.97-144.48,46.97-22.04,46.97,22.04-46.97,144.49Z"/>
+</svg>
