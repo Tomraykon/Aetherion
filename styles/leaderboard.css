@@ -1,0 +1,156 @@
+:root {
+    --radiant-color-gold1: #FFD44D;
+    --radiant-color-gold2: #FFB300;
+    --radiant-color-diamond1: #8EEBFF;
+    --radiant-color-diamond2: #2FCBFF;
+    --radiant-color-emerald1: #5CFF9A;
+    --radiant-color-emerald2: #00C853;
+    --radiant-background: #020525;
+    --radiant-background2: #6B6EFF;
+    --radiant-background3: #4e4fb8;
+    --radiant-background-opacity: rgba(2, 5, 37, 0.7);
+    --radiant-background2-opacity: rgba(145, 147, 248, 0.4);
+    --radiant-background2-opacity2: rgba(145, 147, 248, 0.1);
+
+    --coal: rgba(17, 17, 17);
+    --copper: rgba(200, 116, 58);
+    --quartz: rgba(242, 242, 242);
+    --iron: rgba(207, 207, 207);
+    --nether: rgba(128, 0, 32);
+    --gold: rgba(249, 179, 47);
+    --redstone: rgba(211, 47, 47);
+    --lapislazuli: rgba(47, 111, 255);
+    --diamond: rgba(47, 203, 255);
+    --emerald: rgba(0, 200, 83);
+
+    --coal: rgba(17, 17, 17);
+    --coal2: rgba(70, 70, 70);
+    --copper: rgba(94, 46, 22);
+    --copper2: rgba(255, 145, 64);
+    --quartz: rgba(80, 80, 80);
+    --quartz2: rgba(245, 245, 245);
+    --iron: rgba(72, 72, 72);
+    --iron2: rgba(215, 215, 215);
+    --nether: rgba(180, 30, 70);
+    --gold: rgba(110, 70, 10);
+    --gold2: rgba(255, 210, 90);
+    --redstone: rgba(90, 15, 15);
+    --redstone2: rgba(255, 60, 60);
+    --lapislazuli: rgba(20, 40, 120);
+    --lapislazuli2: rgba(90, 150, 255);
+    --diamond: rgba(15, 80, 110);
+    --diamond2: rgba(120, 240, 255);
+    --emerald: rgba(0, 70, 35);
+    --emerald2: rgba(70, 255, 160);
+
+
+    --coal-opacity: rgba(70, 70, 70, 0.4);
+    --copper-opacity: rgba(255, 145, 64, 0.4);
+    --quartz-opacity: rgba(245, 245, 245, 0.4);
+    --iron-opacity: rgba(215, 215, 215, 0.4);
+    --nether-opacity: rgba(180, 30, 70, 0.4);
+    --gold-opacity: rgba(255, 210, 90, 0.4);
+    --redstone-opacity: rgba(255, 60, 60, 0.4);
+    --lapislazuli-opacity: rgba(90, 150, 255, 0.4);
+    --diamond-opacity: rgba(120, 240, 255, 0.4);
+    --emerald-opacity: rgba(70, 255, 160, 0.4);
+}
+
+*::selection {
+    background-color: var(--radiant-background2);
+    color: var(--radiant-background);
+}
+
+body {
+    background: radial-gradient(circle at bottom, var(--radiant-background3) 0%, var(--radiant-background) 80%);
+}
+
+.navbar {
+    background: linear-gradient(60deg, var(--radiant-background2-opacity), var(--radiant-background-opacity));
+}
+
+.navbar::after {
+    background: linear-gradient(90deg, var(--radiant-background2), var(--radiant-background3), var(--radiant-background2));
+}
+
+.leaderboard-section {
+    max-width: 1200px;
+    margin: 300px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.leaderboard-title {
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.leaderboard-subtitle {
+    font-size: 30px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.leaderboard {
+    display: flex;
+    background: var(--radiant-background);
+    box-shadow: 0px 0px 28px var(--radiant-background2-opacity);
+    border-radius: 20px;
+    border: solid 2px var(--radiant-background2);
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+.leaderboard-row {
+    display: flex;
+    justify-content: space-between;
+    background: var(--radiant-background2-opacity2);
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.1s ease;
+}
+
+.leaderboard-row:hover {
+    background: var(--radiant-background2-opacity);
+    transform: scale(1.02);
+}
+
+.leaderboard-row .player {
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.leaderboard-row .score {
+    font-size: 20px;
+    font-family: monospace;
+    min-width: 70px;
+    text-align: right;
+}
+
+.leaderboard-row.first:hover {
+    background: var(--gold-opacity);
+}
+
+.leaderboard-row.second:hover {
+    background: var(--iron-opacity);
+}
+
+.leaderboard-row.third:hover {
+    background: var(--copper-opacity);
+}
+
+.footer {
+    background: linear-gradient(160deg, var(--radiant-background), var(--radiant-background2));
+}
+
+.footer::before {
+    background: linear-gradient(90deg, var(--radiant-background2), var(--radiant-background3), var(--radiant-background2));
+}

@@ -1,0 +1,70 @@
+:root {
+    --games-color1: #8B1E1E;
+    --games-color2: #4A0F0F;
+    --games-color1-opacity: rgba(139, 30, 30, 0.5);
+    --games-color2-opacity: rgba(74, 15, 15, 0.5);
+    --games-light: #F2F2F2;
+    --games-background: #111111;
+}
+
+*::selection {
+    background-color: var(--games-color1);
+    color: var(--games-light);
+}
+
+body {
+    background: var(--games-background);
+}
+
+.navbar {
+    background: linear-gradient(60deg, var(--games-color1-opacity), var(--games-color2-opacity));
+}
+
+.navbar::after {
+    background: linear-gradient(90deg, var(--games-color1), var(--games-light), var(--games-color1));
+}
+
+.nav-links a::after {
+    background: var(--games-color1);
+}
+
+.article-banner::after {
+    background: linear-gradient(90deg, var(--games-color1), var(--games-light), var(--games-color1));
+}
+
+.article-title {
+    color: var(--games-light);
+    color: var(--games-color1);
+}
+
+.article-meta {
+    color: var(--games-color1);
+}
+
+.article-subtitle {
+    color: var(--games-color1);
+}
+
+.footer {
+    background: linear-gradient(160deg, var(--games-color2), var(--games-color1));
+}
+
+.footer::before {
+    background: linear-gradient(90deg, var(--games-color1), var(--games-light), var(--games-color1));
+}
+
+.footer-section h3 {
+    color: var(--games-light);
+}
+
+.back-button {
+    border: 1px solid var(--games-light);
+}
+
+.back-button:hover {
+    border-color: var(--games-color1);
+}
+
+strong {
+    color: var(--games-color1);
+}

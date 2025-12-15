@@ -1,0 +1,213 @@
+:root {
+    --radiant-color-gold1: #FFD44D;
+    --radiant-color-gold2: #FFB300;
+    --radiant-color-diamond1: #8EEBFF;
+    --radiant-color-diamond2: #2FCBFF;
+    --radiant-color-emerald1: #5CFF9A;
+    --radiant-color-emerald2: #00C853;
+    --radiant-background: #020525;
+    --radiant-background2: #6B6EFF;
+    --radiant-background3: #4e4fb8;
+    --radiant-background-opacity: rgba(2, 5, 37, 0.7);
+    --radiant-background2-opacity: rgba(107, 110, 255, 0.7);
+
+    --coal: rgba(17, 17, 17);
+    --copper: rgba(200, 116, 58);
+    --quartz: rgba(242, 242, 242);
+    --iron: rgba(207, 207, 207);
+    --nether: rgba(128, 0, 32);
+    --gold: rgba(249, 179, 47);
+    --redstone: rgba(211, 47, 47);
+    --lapislazuli: rgba(47, 111, 255);
+    --diamond: rgba(47, 203, 255);
+    --emerald: rgba(0, 200, 83);
+
+    --coal: rgba(17, 17, 17);
+    --coal2: rgba(70, 70, 70);
+    --copper: rgba(94, 46, 22);
+    --copper2: rgba(255, 145, 64);
+    --quartz: rgba(80, 80, 80);
+    --quartz2: rgba(245, 245, 245);
+    --iron: rgba(72, 72, 72);
+    --iron2: rgba(215, 215, 215);
+    --nether: rgba(180, 30, 70);
+    --gold: rgba(110, 70, 10);
+    --gold2: rgba(255, 210, 90);
+    --redstone: rgba(90, 15, 15);
+    --redstone2: rgba(255, 60, 60);
+    --lapislazuli: rgba(20, 40, 120);
+    --lapislazuli2: rgba(90, 150, 255);
+    --diamond: rgba(15, 80, 110);
+    --diamond2: rgba(120, 240, 255);
+    --emerald: rgba(0, 70, 35);
+    --emerald2: rgba(70, 255, 160);
+
+
+    --coal-opacity: rgba(70, 70, 70, 0.4);
+    --copper-opacity: rgba(255, 145, 64, 0.4);
+    --quartz-opacity: rgba(245, 245, 245, 0.4);
+    --iron-opacity: rgba(215, 215, 215, 0.4);
+    --nether-opacity: rgba(180, 30, 70, 0.4);
+    --gold-opacity: rgba(255, 210, 90, 0.4);
+    --redstone-opacity: rgba(255, 60, 60, 0.4);
+    --lapislazuli-opacity: rgba(90, 150, 255, 0.4);
+    --diamond-opacity: rgba(120, 240, 255, 0.4);
+    --emerald-opacity: rgba(70, 255, 160, 0.4);
+}
+
+*::selection {
+    background-color: var(--radiant-background2);
+    color: var(--radiant-background);
+}
+
+body {
+    background: var(--radiant-background);
+}
+
+.navbar {
+    background: linear-gradient(60deg, var(--radiant-background2-opacity), var(--radiant-background-opacity));
+}
+
+.navbar::after {
+    background: linear-gradient(90deg, var(--radiant-background2), var(--radiant-background3), var(--radiant-background2));
+}
+
+.nav-links a::after {
+    background: var(--radiant-color-emerald2);
+}
+
+.article-banner::after {
+    background: linear-gradient(90deg, var(--radiant-background2), var(--radiant-background3), var(--radiant-background2));
+}
+
+.article-title {
+    color: var(--radiant-background2);
+}
+
+.article-meta {
+    color: var(--radiant-color-emerald1);
+}
+
+.article-subtitle {
+    color: var(--radiant-background2);
+}
+
+.footer {
+    background: linear-gradient(160deg, var(--radiant-background), var(--radiant-background2));
+}
+
+.footer::before {
+    background: linear-gradient(90deg, var(--radiant-background2), var(--radiant-background3), var(--radiant-background2));
+}
+
+.footer-section h3 {
+    color: white;
+}
+
+.back-button {
+    border: 1px solid var(--radiant-background2);
+}
+
+.back-button:hover {
+    border-color: var(--radiant-background3);
+}
+
+strong {
+    color: var(--radiant-background3);
+}
+
+.article-text.mineral {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 6px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.coal {
+    background: linear-gradient(180deg, var(--coal), var(--coal2));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--coal-opacity);
+}
+
+.copper {
+    background: linear-gradient(180deg, var(--copper), var(--copper2));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--copper-opacity);
+}
+
+.quartz {
+    background: linear-gradient(0deg, var(--quartz2), var(--quartz));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--quartz-opacity);
+}
+
+.iron {
+    background: linear-gradient(0deg, var(--iron2), var(--iron));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--iron-opacity);
+}
+
+.gold-nugget {
+    background: linear-gradient(0deg, var(--nether), var(--gold2));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--nether-opacity);
+}
+
+.gold {
+    background: linear-gradient(0deg, var(--gold2), var(--gold));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--gold-opacity);
+}
+
+.redstone {
+    background: linear-gradient(0deg, var(--redstone2), var(--redstone));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--redstone-opacity);
+}
+
+.lapislazuli {
+    background: linear-gradient(0deg, var(--lapislazuli2), var(--lapislazuli));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--lapislazuli-opacity);
+}
+
+.diamond {
+    background: linear-gradient(0deg, var(--diamond2), var(--diamond));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--diamond-opacity);
+}
+
+.emerald {
+    background: linear-gradient(0deg, var(--emerald2), var(--emerald));
+    padding: 8px;
+    box-shadow: 0 3px 16px 0 var(--emerald-opacity);
+}
+
+.coal,
+.copper,
+.quartz,
+.iron,
+.gold-nugget,
+.gold,
+.redstone,
+.lapislazuli,
+.diamond,
+.emerald {
+    text-transform: uppercase;
+    transition: all 0.1s ease;
+}
+
+.coal:hover,
+.copper:hover,
+.quartz:hover,
+.iron:hover,
+.gold-nugget:hover,
+.gold:hover,
+.redstone:hover,
+.lapislazuli:hover,
+.diamond:hover,
+.emerald:hover {
+    transform: scale(1.1);
+}
