@@ -153,6 +153,15 @@
     border-radius: 12px;
 }
 
+.article-image.mob {
+    height: 500px;
+}
+
+.article-image.mob img {
+    height: 100%;
+    object-fit: contain;
+}
+
 /* SUBTÍTULOS */
 .article-subtitle {
     font-size: 40px;
