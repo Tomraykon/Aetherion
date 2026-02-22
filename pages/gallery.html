@@ -8,6 +8,7 @@
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/gallery.css">
 
     <!-- Window Icon -->
     <link rel="icon" type="image/png" href="../assets/favicon/Favicon.png">
@@ -32,7 +33,18 @@
             </ul>
         </nav>
 
-        <section class="events-section-2">
+        <section class="gallery">
+            <div id="gallery-container"></div>
+        </section>
+
+        <div class="lightbox" id="lightbox">
+            <button class="close-btn">✕</button>
+            <button class="prev-btn">‹</button>
+            <img id="lightbox-img" />
+            <button class="next-btn">›</button>
+        </div>
+
+        <section class="events-section-2 off">
 
             <div class="events-header">
                 <h2 class="events-title-2">GALERÍA</h2>
@@ -86,6 +98,8 @@
         </footer>
 
     </main>
+
+    <script src="../scripts/gallery.js"></script>
 
 </body>
 
