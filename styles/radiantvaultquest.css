@@ -211,3 +211,38 @@ strong {
 .emerald:hover {
     transform: scale(1.1);
 }
+
+.violet {
+    position: relative;
+    color: var(--radiant-background2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.violet::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.violet:hover {
+    color: var(--radiant-color-emerald1);
+}
+
+.violet:hover::after {
+    transform: scaleX(1);
+}
+
+.green {
+    color: var(--radiant-color-emerald1)
+}
